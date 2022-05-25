@@ -1,0 +1,28 @@
+2, Bloque A, 60, 10
+4, Bloque B, 60, 20
+6, Sobusa, 200, 80
+7, Bloque C, 100, 30
+9, Bloque D, 100, 30
+10, Bloque E, 120, 40
+12, Bloque F, 140, 50
+13, Air-e, 150, 60
+14, Bloque G, 140, 50
+15, Bloque I, 160, 60
+16, La Carolina, 200, 80
+17, Bloque J, 180, 70
+19, Bloque K, 180, 70
+20, Bloque L, 200, 80
+22, Lab. Energías, 220, 90
+24, Lab. de Arquitectura, 220, 90
+25, Bloque de Salud, 240, 100
+26, Transmetro, 200, 80
+27, DuNord Express, 260, 110
+28, DuNord Plaza, 260, 110
+29, Baños Uninorte, 150, 60
+30, DuNord café, 280, 120
+32, Biblioteca Karl. C Parrish, 300, 130
+33, Coliseo Cultural, 300, 130
+35, Casa Estudio, 320, 150
+36, Coolitoral, 200, 80
+38, KM5, 350, 175
+40, Restaurante 1966, 400, 200
