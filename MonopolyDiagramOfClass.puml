@@ -1,0 +1,60 @@
+@startuml Monopoly
+
+class Square{
+    +type:int
+    +x:int
+    +y:int
+    +pos:int
+    +next:Square
+    +prev:Square
+    +description:string
+    +Properties:property
+    -AssignProperty()
+}
+class Board{
+    +GoSquare:Square
+    +Properties:List
+    -AddSquare()
+    -CrearPropiedades()
+}
+class Turnos{
+    +result:int
+    +name:string
+}
+class Properties{
+    +name:string
+    +owner:string
+    +owned:boolean
+    +price:int
+    +rent:int
+    +BoardPos:int
+    -AssignProperty()
+}
+class Dados{
+    +Dados1:int
+    +Dados2:int
+    +result:int
+    +tirarDados()
+}
+class Jugador{
+    +board:Board
+    +pos:Square
+    +dinero:int
+    +property:Properties
+    +nombre:string
+    +enCarcel:boolean
+    +turnosEnCarcel:int
+    +Accion()
+
+}
+
+Properties *-- Board
+Board *-- Jugador
+Properties *-- Jugador
+Properties *-- Square
+Square *-- Board
+Square *-- Monopoly
+Board *-- Monopoly
+Dados *-- Monopoly
+Turnos *-- Monopoly
+@enduml
