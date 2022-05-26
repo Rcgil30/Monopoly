@@ -1,7 +1,7 @@
 # Monopoly
 Lab Final ED1
 
-Integrantes:
+## Integrantes:
 
 Roberto Gil
 
